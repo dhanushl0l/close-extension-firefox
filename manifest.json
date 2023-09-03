@@ -5,7 +5,7 @@
     "description": "Close",
     "permissions": ["activeTab" ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "main.js"
     },
     "action": {
       "default_popup": "",
