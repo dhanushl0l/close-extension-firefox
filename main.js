@@ -1,7 +1,6 @@
-browser.action.onClicked.addListener(() => {
-    browser.windows.getCurrent().then((windowInfo) => {
-      const windowId = windowInfo.id;
-      browser.windows.remove(windowId);
-    });
+browser.tabs.query({ currentWindow: true, active: true }).then((tabs) => {
+    if (tabs.length === 1) {
+      browser.tabs.remove(tabs[0].id);
+    }
   });
   
