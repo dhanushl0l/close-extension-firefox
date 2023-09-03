@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Close Window",
     "version": "1.0",
-    "description": "Close the current window with a single click.",
+    "description": "Close the window with a single click.",
     "permissions": ["activeTab"],
     "action": {
       "default_popup": "popup.html",
