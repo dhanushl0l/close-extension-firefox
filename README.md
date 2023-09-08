@@ -1,4 +1,4 @@
-#Class Button - Firefox Extension
+# Class Button - Firefox Extension
 Simplify your Firefox experience with this one-click browser closure extension.
 
 Download Extension
